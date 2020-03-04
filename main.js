@@ -17,7 +17,9 @@ class Main {
         console.log(prueba.getFechaFormatoCorto());
     }
 
-    
+    pruebaHote() {
+        
+    }
     
 
 }
