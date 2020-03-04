@@ -20,12 +20,12 @@ export default class Reservacion {
     }
 
     addHuesped(huesped) {
-        this.huespedes.push(huesped)
+        this.huespedes.push(huesped);
 
     }
 
     getNumHuespedes() {
-        this.huespedes.forEach(huesped, i => {
+        this.huespedes.forEach((huesped, i) => {
             console.log(`${i} ${huesped.getDescripcion()}`)
         });
 
