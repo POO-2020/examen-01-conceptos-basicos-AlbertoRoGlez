@@ -1,5 +1,6 @@
 import Huesped from "./huesped.js"
 import Reservacion from "./reservacion.js"
+import Hotel from "./hotel.js"
 
 class Main {
     constructor() {
@@ -23,3 +24,4 @@ class Main {
 
 let app = new Main();
 app.pruebaFecha();
+app.pruebaDescripcion();
