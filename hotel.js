@@ -20,3 +20,6 @@ class Hotel {
         return `Resumen de las reservaciones ${this.reservaciones.print}`
     }
 }
+
+var app = new Hotel
+app.Hotel();
