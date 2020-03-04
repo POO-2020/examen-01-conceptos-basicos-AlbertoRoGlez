@@ -1,6 +1,6 @@
 import Reservacion from "./reservacion.js"
 
-class Hotel {
+export default class Hotel {
     /**
      * 
      * @param {string} nombre |Nombre del hotel
@@ -20,6 +20,3 @@ class Hotel {
         return `Resumen de las reservaciones ${this.reservaciones.print}`
     }
 }
-
-var app = new Hotel
-app.Hotel();
